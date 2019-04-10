@@ -1,6 +1,24 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function matryoshka_doll_1(){
+  const flower= "Roses";
+  console.log(`I'm Russian Doll 1, my favorite flowers are ${flower}`)
+
+  function matryoshka_doll_2(){
+    const color= "Green"
+    console.log(`I'm Russian Doll 2, my favorite color is ${color}`)
+
+    function matryoshka_doll_3(){
+     
+      console.log(`Hi, can you introduce yourself? ${flower}`)
+    }
+  } matryoshka_doll_3();
+  matryoshka_doll_2();
+};
+
+matryoshka_doll_1();
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
